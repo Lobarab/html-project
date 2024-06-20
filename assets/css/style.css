@@ -1,3 +1,12 @@
+/*Google fonts import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Oswald:wght@200..700&display=swap');
+
+
+
+
 /*Asterisk wildcard selector to override default styles added by browser*/
 
 *{
@@ -14,6 +23,7 @@ body{
     flex-direction: column;
     /*Generic styles*/
     color:darkslategray;
+    font-family: 'Inter', sans-serif;
 }
 
 
