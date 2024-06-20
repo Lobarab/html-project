@@ -4,7 +4,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
+
+/*Body*/
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic styles*/
+    color:darkslategray;
+}
+
 
 /*Header*/
 header{
@@ -15,6 +26,7 @@ header{
 
 main{
     background-color: lightgray;
+    flex: 1 0 auto;
 }
 
 /*Footer*/
