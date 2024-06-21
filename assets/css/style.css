@@ -48,6 +48,20 @@ h1{
     color: #2f4f2f;
 }
 
+#navbar{
+    font-size: large;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#navbar > li{
+    margin-bottom: 1rem;
+
+}
+
+.travel{
+    border-bottom: 1px solid #2f4f2f;
+}
 /*Main Content*/
 
 main{
