@@ -34,7 +34,7 @@ header{
     padding: 0 2rem;
     position: fixed;
     z-index: 99;
-    box-shadow: 0 2px 3px #808080;
+    box-shadow: 0 2px 3px #808080
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -94,8 +94,23 @@ nav{
 main{
     background-color: lightgray;
     flex: 1 0 auto;
-    margin-top: 95px;
+    margin-top: 60px;
 }
+
+/*Media Queries*/
+@media screen and (max-width: 768px) {
+    main {
+    margin-top : 95px;
+    }
+    }
+    @media screen and (min-width: 769px) {
+    main {
+    margin-top : 85px; 
+    }
+    }
+    
+    
+
 
 /*Footer*/
 
