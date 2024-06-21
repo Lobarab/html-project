@@ -29,7 +29,12 @@ body{
 
 /*Header*/
 header{
-    background-color: lightcyan;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0 2rem;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 2px 3px #808080;
 }
 
 h1{
