@@ -35,6 +35,9 @@ header{
     position: fixed;
     z-index: 99;
     box-shadow: 0 2px 3px #808080;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a{
@@ -48,15 +51,18 @@ h1{
     color: #2f4f2f;
 }
 
-#navbar{
+#nav-bar{
     font-size: large;
     letter-spacing: 2px;
     list-style-type: none;
 }
 
-#navbar > li{
+#nav-bar > li{
     margin-bottom: 1rem;
 
+}
+#nav-toggle{
+    display: none;
 }
 
 .travel{
@@ -72,7 +78,16 @@ nav{
     left: 0;
     box-shadow: 0 2px 3px #808080;
     display: none;
+    top: 100%;
     
+}
+
+#nav-toggle:checked~nav{
+    display: block;
+}
+
+.nav-toggle-label{
+    font-size: 2rem;
 }
 /*Main Content*/
 
