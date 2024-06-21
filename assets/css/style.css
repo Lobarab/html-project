@@ -37,8 +37,15 @@ header{
     box-shadow: 0 2px 3px #808080;
 }
 
+header a{
+    text-decoration: none;
+    color: inherit;
+}
 h1{
     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #2f4f2f;
 }
 
 /*Main Content*/
