@@ -62,6 +62,18 @@ h1{
 .travel{
     border-bottom: 1px solid #2f4f2f;
 }
+/*Nav styles with dropdown option*/
+
+nav{
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0 2rem;
+    left: 0;
+    box-shadow: 0 2px 3px #808080;
+    display: none;
+    
+}
 /*Main Content*/
 
 main{
