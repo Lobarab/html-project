@@ -154,6 +154,11 @@ footer{
         /*Make Main Content visible */
         margin-top: 150px;
     }
+
+    /*Large devices (laptops, desktops 992px and up*/
+    #nav-bar a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
     
 
