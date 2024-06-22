@@ -21,8 +21,9 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
     /*Generic styles*/
-    color:darkslategray;
+    color: #3a3a3a;
     font-family: 'Inter', sans-serif;
 }
 
@@ -31,10 +32,10 @@ body{
 header{
     background-color: #ffffff;
     width: 100%;
-    padding: 0 2rem;
+    padding: 0 2em;
     position: fixed;
     z-index: 99;
-    box-shadow: 0 2px 3px #808080
+    box-shadow: 0 2px 1px #808080;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -48,7 +49,8 @@ h1{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #2f4f2f;
+    color: #3a3a3a;
+    text-align: center;
 }
 
 #nav-bar{
@@ -66,7 +68,7 @@ h1{
 }
 
 .travel{
-    border-bottom: 1px solid #2f4f2f;
+    border-bottom: 1px solid #3a3a3a;
 }
 /*Nav styles with dropdown option*/
 
@@ -93,9 +95,19 @@ nav{
 
 main{
     background-color: lightgray;
-    flex: 1 0 auto;
-    margin-top: 60px;
+    flex:  auto;
+    
+    
+
 }
+
+*Footer*/
+
+footer{
+    background-color: coral;
+}
+
+
 
 /*Media Queries*/
 @media screen and (max-width: 768px) {
@@ -105,15 +117,45 @@ main{
     }
     @media screen and (min-width: 769px) {
     main {
-    margin-top : 85px; 
+    margin-top : 47px; 
     }
     }
     
+    /*Media Queries for tablets and larger (768px and up)*/
+
+@media screen and (min-width: 768px) {
+    /*Header*/
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1 rem;
+    }
+    #nav-bar{
+        display: flex;
+    }
+    #nav-bar > li{
+        padding-left: 1rem;
+    }
+    .nav-toggle-label{
+        display: none;
+    }
+    #logo{
+        font-size: 250%;
+        line-height: 75px;
+        margin: 0 0.3rem;
     
 
+    }
 
-/*Footer*/
-
-footer{
-    background-color: coral;
+    /*Main Content*/
+    main{
+        /*Make Main Content visible */
+        margin-top: 150px;
+    }
 }
+    
+
+
+
