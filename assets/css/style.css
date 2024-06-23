@@ -101,10 +101,21 @@ main{
 
 }
 
-*Footer*/
+/*Footer*/
 
-footer{
-    background-color: coral;
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 180%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 
@@ -152,7 +163,7 @@ footer{
     /*Main Content*/
     main{
         /*Make Main Content visible */
-        margin-top: 150px;
+        margin-top: 78px;
     }
 
     /*Large devices (laptops, desktops 992px and up*/
