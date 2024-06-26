@@ -94,11 +94,22 @@ nav{
 /*Main Content*/
 
 main{
-    background-color: lightgray;
-    flex:  auto;
+    /*Make main element to take up any surplus space to push footer down*/
+
+    flex: auto;
+    margin-top: 47px;
+
+    
     
     
 
+}
+
+/*Hero-image section*/
+#hero-image{
+    height: 800px;
+    width: 100%;
+    background: url(..//images/samr.webp) no-repeat center center/cover;
 }
 
 /*Footer*/
@@ -123,7 +134,7 @@ main{
 /*Media Queries*/
 @media screen and (max-width: 768px) {
     main {
-    margin-top : 95px;
+    margin-top : 80px;
     }
     }
     @media screen and (min-width: 769px) {
@@ -163,7 +174,7 @@ main{
     /*Main Content*/
     main{
         /*Make Main Content visible */
-        margin-top: 78px;
+        margin-top: 47px;
     }
 
     /*Large devices (laptops, desktops 992px and up*/
