@@ -27,6 +27,14 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+h1, h2, h3{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+    text-align: center;
+}
+
 
 /*Header*/
 header{
@@ -34,6 +42,7 @@ header{
     width: 100%;
     padding: 0 2em;
     position: fixed;
+    top: 0;
     z-index: 99;
     box-shadow: 0 2px 1px #808080;
     display: flex;
@@ -44,13 +53,6 @@ header{
 header a{
     text-decoration: none;
     color: inherit;
-}
-h1{
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #3a3a3a;
-    text-align: center;
 }
 
 #nav-bar{
@@ -96,10 +98,7 @@ nav{
 main{
     /*Make main element to take up any surplus space to push footer down*/
 
-    flex: auto;
-    margin-top: 47px;
-
-    
+    flex: 1 0 auto;
     
     
 
@@ -107,13 +106,28 @@ main{
 
 /*Hero-image section*/
 #hero-image{
-    height: 800px;
+    position: relative;
+    height: 700px;
     width: 100%;
     background: url(..//images/samr.webp) no-repeat center center/cover;
 }
 
-/*Footer*/
+#cover-text{
+    /*Rgba for the opacity*/
+    background: rgba(173, 216, 230, 0.8);
+    font-size: 90%;
+    position: absolute;
+    width: 100%;
+    min-height: 100px;
+    padding: 30px;
+    
 
+}
+#cover-text>h2, #cover-text>h3 {
+    color: #ffffff;
+}
+
+/*Footer*/
 #social-media {
     text-align: center;
     padding: 20px 0;
@@ -134,14 +148,15 @@ main{
 /*Media Queries*/
 @media screen and (max-width: 768px) {
     main {
-    margin-top : 80px;
+    margin-top : 95px;
     }
     }
     @media screen and (min-width: 769px) {
     main {
-    margin-top : 47px; 
+    margin-top : 78px; 
     }
     }
+
     
     /*Media Queries for tablets and larger (768px and up)*/
 
@@ -170,19 +185,19 @@ main{
     
 
     }
-
     /*Main Content*/
     main{
-        /*Make Main Content visible */
-        margin-top: 47px;
+        margin-top: 78px;
     }
+    
+    
 
     /*Large devices (laptops, desktops 992px and up*/
     #nav-bar a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
 }
-    
+
 
 
 
