@@ -104,6 +104,7 @@ main{
 
 }
 
+
 /*Hero-image section*/
 #hero-image{
     position: relative;
@@ -126,6 +127,37 @@ main{
 #cover-text>h2, #cover-text>h3 {
     color: #ffffff;
 }
+
+#reasons {
+
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    
+    
+}
+#reasons h2{
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+#list div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#list hr{
+    border-top: 1px solid #3a3a3a;
+    margin: 6px 0;
+
+}
+
+
+
+
 
 /*Footer*/
 #social-media {
