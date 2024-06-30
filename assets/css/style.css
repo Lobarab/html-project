@@ -124,16 +124,17 @@ main{
     
 
 }
-#cover-text>h2, #cover-text>h3 {
-    color: #ffffff;
+#cover-text>h2 {
+    color: #3a3a3a
 }
 
 #reasons {
 
-    width: 90%;
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
     margin: auto;
+    background-color: lightblue;
     
     
 }
@@ -143,15 +144,20 @@ main{
     margin-bottom: 15px;
 }
 
+#reasons p{
+    text-align: center;
+}
 
-#list div {
+
+#list > div,
+#second-list > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
 
 #list hr{
     border-top: 1px solid #3a3a3a;
-    margin: 6px 0;
+    margin: 5px 0;
 
 }
 
@@ -160,9 +166,12 @@ main{
     width: 90vh;
     background: url(../images/girlwithpomegranate.webp) no-repeat center center/cover;
     margin-bottom: 20px;
+    /*Make square image circle*/
+    border-radius: 50%;
     max-height: 200px;
     max-width: 200px;
 }
+
 
 #reasons-image{
     display: flex;
@@ -235,6 +244,26 @@ main{
     main{
         margin-top: 78px;
     }
+
+
+    
+    /*Reasons section*/
+    
+    
+    
+
+    #list,
+    #second-list{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #list > div,
+    #second-list > div{
+     width: 100%;
+    }
+
     
     
 
@@ -243,7 +272,4 @@ main{
         border-bottom: 1px solid #3a3a3a;
     }
 }
-
-
-
 
