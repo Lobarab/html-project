@@ -179,6 +179,36 @@ main{
     justify-content: center;
 }
 
+/*Uzbekistan Cities section*/
+
+
+#cities{
+    /*Handle responsivity witout the need for media query*/
+    background: url(../images/uzcity.webp) no-repeat, center center/cover;
+    background-size: cover;
+   display: flex;
+   flex-wrap: wrap;
+   padding-bottom: 30px;
+   justify-content: center;
+   
+
+
+    
+
+}
+
+#description > div {
+    background: rgba(173, 216, 230, 0.9);
+    padding: 20px;
+    /*Add space around each div*/
+    margin: 15px;
+    border: 1px solid #ccc;/*Add a border around each div*/
+    border-radius: 8px; /*Round the corners*/
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
 
 
 
@@ -222,7 +252,7 @@ main{
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1 rem;
+        padding-right: 1rem;
     }
     #nav-bar{
         display: flex;
@@ -272,4 +302,5 @@ main{
         border-bottom: 1px solid #3a3a3a;
     }
 }
+
 
