@@ -197,7 +197,7 @@ main{
 
 }
 
-#description > div {
+#description  div {
     background: rgba(173, 216, 230, 0.9);
     padding: 20px;
     /*Add space around each div*/
@@ -207,6 +207,14 @@ main{
     box-sizing: border-box;
     text-align: center;
     
+    
+    
+}
+
+/*Gallery section*/
+
+#pictures{
+    width: 100%;
 }
 
 
