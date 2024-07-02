@@ -101,6 +101,7 @@ main{
     flex: 1 0 auto;
     
     
+    
 
 }
 
@@ -124,8 +125,11 @@ main{
     
 
 }
-#cover-text>h2 {
-    color: #3a3a3a
+#cover-text h2 {
+    color: #3a3a3a;
+    padding: 25px;
+
+    
 }
 
 #reasons {
@@ -191,10 +195,10 @@ main{
    padding-bottom: 30px;
    justify-content: center;
    
+}
 
-
-    
-
+#cities h2 {
+    padding: 55px;
 }
 
 #description  div {
@@ -223,9 +227,7 @@ main{
 
 #pictures{
     line-height: 0;
-    
-
-}
+    }
 
 /*About Us page*/
 
@@ -237,10 +239,11 @@ main{
     min-height: 100vh;
     background-size: cover;
     background-position: center;/*Center the background image*/
-    padding: 20px;
-    margin-top: 1px;
     display: flex;
     flex-direction: column;
+    
+
+    
     
 
 
@@ -248,6 +251,21 @@ main{
     
 }
 
+#aboutus h2{
+    color: lightblue;
+    margin-top: 30px;
+}
+
+#info {
+    background: rgba(173, 216, 230, 0.7);
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /*Round the corners*/
+    box-sizing: border-box;
+    text-align: center;
+    
+}
 
 
 /*Footer*/
@@ -266,6 +284,9 @@ main{
     color: #3a3a3a;
 }
 
+
+/*Media Query*/
+
 /*Media Query: large or landscape phone (576px and up)*/
 @media screen and (min-width: 576px){
     #pictures{
@@ -275,17 +296,41 @@ main{
 }
 
 
-/*Media Query*/
-@media screen and (max-width: 768px) {
+
+/* Base styles for all screen sizes */
+
+
+/* Mobile devices (max-width: 600px)  */
+@media screen and (max-width: 600px) {
     main {
-    margin-top : 95px;
+        margin-top: 50px; /* Adjust as needed to ensure content is not hidden */
+        
     }
-    }
-    @media screen and (min-width: 769px) {
+}
+
+/* Tablets (max-width: 878px) */
+@media screen and (max-width: 878px) {
     main {
-    margin-top : 78px; 
+        margin-top: 65px; /* Adjust as needed */
+        padding-top: 30px;
     }
+
+}
+    
+
+
+/* Desktops (min-width: 879px) */
+@media screen and (min-width: 879px)  {
+    main {
+        margin-top: 78px; /* Adjust as needed */
+        
     }
+}
+
+
+
+
+
 
     
     /*Media Queries for tablets and larger (768px and up)*/
@@ -315,11 +360,7 @@ main{
     
 
     }
-    /*Main Content*/
-    main{
-        margin-top: 78px;
-    }
-
+    
 
     
     /*Reasons section*/
@@ -345,15 +386,25 @@ main{
     }
     
 
+    /*About Us page*/
+    #aboutus{
+        padding-top: 50px;
+        margin-top: 15px;
+    }
+
     /*Large devices (laptops, desktops 992px and up*/
     #nav-bar a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
 
+     
     /*Gallery*/
     #photos{
         column-count: 4;
     }
+
+
+    
 }
 
 
