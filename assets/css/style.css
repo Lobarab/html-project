@@ -213,10 +213,14 @@ main{
 
 /*Gallery section*/
 
-#pictures{
+#pictures img{
     width: 100%;
+    line-height: 1em;
 }
 
+#pictures{
+    line-height: 0;
+}
 
 
 
