@@ -240,9 +240,16 @@ main{
     color: #3a3a3a;
 }
 
+/*Media Query: large or landscape phone (576px and up)*/
+@media screen and (min-width: 576px){
+    #pictures{
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 
-/*Media Queries*/
+/*Media Query*/
 @media screen and (max-width: 768px) {
     main {
     margin-top : 95px;
@@ -306,12 +313,20 @@ main{
      width: 100%;
     }
 
-    
+    /*Gallery*/
+    #photos{
+        column-count: 2;
+    }
     
 
     /*Large devices (laptops, desktops 992px and up*/
     #nav-bar a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /*Gallery*/
+    #photos{
+        column-count: 4;
     }
 }
 
