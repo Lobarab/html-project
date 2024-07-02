@@ -211,15 +211,41 @@ main{
     
 }
 
-/*Gallery section*/
+/*Gallery page*/
 
 #pictures img{
+    
     width: 100%;
     line-height: 1em;
+    
+    
 }
 
 #pictures{
     line-height: 0;
+    
+
+}
+
+/*About Us page*/
+
+
+
+#aboutus{
+    background: url(..//images/figurines.webp) no-repeat center center/cover;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;/*Center the background image*/
+    padding: 20px;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    
+
+
+    
+    
 }
 
 
