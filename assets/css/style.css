@@ -103,7 +103,59 @@ main{
     margin-top: 47px;
     /* Enable flex properties for child elements */
     display: flex;
-    flex-direction: column;
+    flex-direction: column;}
+
+
+/*Contact Us form*/
+
+#contactus{
+    background-image: url(../images/uz-nature.webp);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#contact-form{
+    color: #3a3a3a;
+    background-color: rgba(173, 216, 230, 0.8) ;
+    padding: 30px;
+    border-radius: 3px; /*Round the corners*/
+}
+
+
+#contact-form h2{
+    margin-bottom: 20px;
+}
+
+.text-input{
+    background: whitesmoke;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0px 20px 0px;
+    border: 1px solid #808080;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons{
+    width: 100%;
+    display: flexbox;
+    justify-content: space-between;
+    
+}
+
+.submit-button{
+    margin-top: 20px;
+    padding: 15px 32px;
+    background-color: #808080;
+    color: #ffffff;
+    border-radius: 2px;
+    font-size: 100%;
+
+}
+
+
 
 
 /*Hero-image section*/
@@ -113,6 +165,8 @@ main{
     width: 100%;
     background: url(..//images/samr.webp) no-repeat center center/cover;
 }
+
+
 
 #cover-text{
     /*Rgba for the opacity*/
@@ -257,7 +311,7 @@ main{
 }
 
 #info {
-    background: rgba(173, 216, 230, 0.7);
+    background: rgba(173, 216, 230, 0.9);
     padding: 30px;
     margin: 20px;
     border: 1px solid #ccc;
@@ -267,36 +321,8 @@ main{
     
 }
 
-/*Contact Us*/
-
-#contactus{
-    background-image: url(../images/mosaic.webp);
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
-}
-
-#contact-form{
-    color: #3a3a3a;
-    background-color: rgba(173, 216, 230, 0.7) ;
-    padding: 30px;
-    border-radius: 3px; /*Round the corners*/
-}
 
 
-#contact-form h2{
-    margin-bottom: 20px;
-}
-
-.text-input{
-    background: transparent;
-    width: 100%;
-    margin: 5px 0px 20px 0px;
-    border: 1px solid #808080;
-    border-radius: 2px;
-    padding: 0 5px;
-}
 /*Footer*/
 #social-media {
     text-align: center;
@@ -347,10 +373,31 @@ main{
         font-size: 250%;
         line-height: 75px;
         margin: 0 0.3rem;
+
+        /*Contact Us page Form*/
+
+    #contactus{  
+        background-position: center;
+        position: relative;
     
 
     }
-    
+
+     #contact-form{
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+     }
+
+    .text-input:hover{
+        border-color: #808080;
+
+    }
+    .submit-button:hover{
+        background-color: #808080;
+        color: #ffffff;
+    }
     
     
     /*Reasons section*/
@@ -371,7 +418,7 @@ main{
 
 
 
-}
+    }
 
 
 /*Large devices (laptops, desktops 769px and up*/
@@ -386,6 +433,8 @@ main{
 }
 
 
+}
+
 /*Media Query*/
 
 /*Media Query: large or landscape phone (576px and up)*/
@@ -396,7 +445,7 @@ main{
     }
 }
 
-}     
+   
     
 
 
