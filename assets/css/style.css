@@ -40,7 +40,7 @@ h1, h2, h3{
 header{
     background-color: #ffffff;
     width: 100%;
-    padding: 0 2em;
+    padding: 0 1rem;
     position: fixed;
     top: 0;
     z-index: 99;
@@ -99,11 +99,11 @@ main{
     /*Make main element to take up any surplus space to push footer down*/
 
     flex: 1 0 auto;
-    
-    
-    
-
-}
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 
 
 /*Hero-image section*/
@@ -267,7 +267,36 @@ main{
     
 }
 
+/*Contact Us*/
 
+#contactus{
+    background-image: url(../images/mosaic.webp);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#contact-form{
+    color: #3a3a3a;
+    background-color: rgba(173, 216, 230, 0.7) ;
+    padding: 30px;
+    border-radius: 3px; /*Round the corners*/
+}
+
+
+#contact-form h2{
+    margin-bottom: 20px;
+}
+
+.text-input{
+    background: transparent;
+    width: 100%;
+    margin: 5px 0px 20px 0px;
+    border: 1px solid #808080;
+    border-radius: 2px;
+    padding: 0 5px;
+}
 /*Footer*/
 #social-media {
     text-align: center;
@@ -285,57 +314,18 @@ main{
 }
 
 
-/*Media Query*/
-
-/*Media Query: large or landscape phone (576px and up)*/
-@media screen and (min-width: 576px){
-    #pictures{
-        column-count: 2;
-        column-gap: 0;
-    }
-}
-
-
-
-/* Base styles for all screen sizes */
-
-
-/* Mobile devices (max-width: 600px)  */
-@media screen and (max-width: 600px) {
-    main {
-        margin-top: 50px; /* Adjust as needed to ensure content is not hidden */
-        
-    }
-}
-
-/* Tablets (max-width: 878px) */
-@media screen and (max-width: 878px) {
-    main {
-        margin-top: 65px; /* Adjust as needed */
-        padding-top: 30px;
-    }
-
-}
-    
-
-
-/* Desktops (min-width: 879px) */
-@media screen and (min-width: 879px)  {
-    main {
-        margin-top: 78px; /* Adjust as needed */
-        
-    }
-}
-
-
-
-
-
 
     
-    /*Media Queries for tablets and larger (768px and up)*/
 
-@media screen and (min-width: 768px) {
+
+
+
+
+
+ 
+    /*Media Queries for tablets and larger (1025px and up)*/
+
+@media screen and (min-width: 1025px) {
     /*Header*/
     nav{
         display: block;
@@ -361,14 +351,11 @@ main{
 
     }
     
-
+    
     
     /*Reasons section*/
     
-    
-    
-
-    #list,
+     #list,
     #second-list{
         display: flex;
         flex-direction: column;
@@ -380,31 +367,40 @@ main{
      width: 100%;
     }
 
-    /*Gallery*/
-    #photos{
-        column-count: 2;
-    }
-    
-
-    /*About Us page*/
-    #aboutus{
-        padding-top: 50px;
-        margin-top: 15px;
-    }
-
-    /*Large devices (laptops, desktops 992px and up*/
-    #nav-bar a:hover{
-        border-bottom: 1px solid #3a3a3a;
-    }
-
-     
-    /*Gallery*/
-    #photos{
-        column-count: 4;
-    }
 
 
-    
+
+
 }
+
+
+/*Large devices (laptops, desktops 769px and up*/
+#nav-bar a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+
+
+#pictures{
+    column-count: 1;
+}
+
+
+/*Media Query*/
+
+/*Media Query: large or landscape phone (576px and up)*/
+@media screen and (min-width: 576px){
+    #pictures{
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+}     
+    
+
+
+    
+
 
 
