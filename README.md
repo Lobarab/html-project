@@ -3,14 +3,16 @@
 # Introduction
 
 Silk Road Travels is a travel agency that specializes in booking trips to Uzbekistan. Since the country is located at the heart of the Great Silk Road, the name of the agency is inspired by this ancient trade route.
-The users can browse the pages and learn about the country and its main ancient cities and send enquiries for booking trips 
+The users can browse the pages and learn about the country and its main ancient cities and send enquiries for booking trips.
 
 
 ![image_example](assets/images/myproject.webp)
 
 ## Structure
 
-The website consists of 5 pages including Home, About Us, Uzbekistan Cities, Gallery and Contact Us pages.It is created only by using HTML/CSS. index.html was created first and its structure was copied to create other pages and then invidual changes applied to each page
+The website consists of 5 pages including Home, About Us, Uzbekistan Cities, Gallery and Contact Us pages.It is created only by using HTML/CSS. index.html was created first and its structure was copied to create other pages and then invidual changes applied to each page.
+Pages of the website has colourful background image or hero image for Home page, representing the architecture, art and nature of Uzbekistan, The purpose of applying such images is to invoke curiosity a in viewers mind and encourage to visit the country. Texts of all pages and Contact Us form has lightblue translucent colour in rgb value and font in black to make it stand out yet complement the hero image and background images hence creating a balanced, attractive and user-friendly website.
+
 
 ### HTML/CSS
 
@@ -41,7 +43,8 @@ Bactrian camel image has been used as a favicon as it is one of the symbols of S
 ### Home
 Alongside with Header, Main and Footer,the Home page has the following features:
 
-- **hero image** with a text introduction of Uzbekistan on the upper part of the hero image. The image used shows the vibrant colours of an ancient archtectural complex. 
+- **hero image** with a text introduction of Uzbekistan on the upper part of the hero image. The image used shows the vibrant colours of an ancient archtectural complex.
+The text is written in black on a near opaque light blue colour matching the colours of Hero image without making the view busy or distractive. 
 
 ![image](assets/images/srcn.heroimg.webp)
 
@@ -64,7 +67,7 @@ The Footer section appears at the bottom of every page of the website. Its backg
 
 ### About Us 
 
-About Us page is a small introduction of the travel agency and what they do.
+About Us page is a small introduction of the travel agency and what they do. The background image shows colourful tradtional clay figurines while the text has light blue background as in all other pages of the website.
 ![aboutus_image](assets/images/img.aboutus.webp)
 
 
