@@ -112,15 +112,18 @@ main{
     background-image: url(../images/uz-nature.webp);
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
+    padding: 20px 10px 0px 10px;
     flex-grow: 1;
+    
 }
 
 #contact-form{
     color: #3a3a3a;
-    background-color: rgba(173, 216, 230, 0.8) ;
-    padding: 30px;
+    background-color: rgba(173, 216, 230, 0.9) ;
+    padding: 20px 20px 2px 20px;
     border-radius: 3px; /*Round the corners*/
+
+
 }
 
 
@@ -181,7 +184,7 @@ main{
 
 #cover-text{
     /*Rgba for the opacity*/
-    background: rgba(173, 216, 230, 0.8);
+    background: rgba(173, 216, 230, 0.9);
     font-size: 90%;
     position: absolute;
     width: 100%;
@@ -390,6 +393,8 @@ main{
      #contactus{   
         background-position: center;
         position: relative;
+        /*Add padding at the bottom to prevent overflow*/
+        padding-bottom: 100px;
     
 
     }
@@ -397,8 +402,10 @@ main{
      #contact-form{
         max-width: 400px;
         position: absolute;
-        left: 10%;
+        margin: 0 auto;
+        left: 20%;
         top: 150px;
+
      }
 
      
